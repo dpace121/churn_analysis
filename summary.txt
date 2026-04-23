@@ -1,28 +1,15 @@
-Executive Summary: Telecom Customer Churn Analysis
-Based on the data analysis and visualizations you created, the primary objective was to understand why customers are leaving the service and to identify specific segments at risk.
-
-1. Key Findings: The Churn Rate
-Current Churn Level: Your analysis reveals that 26.54% of the customer base has already churned.
-
-Critical Risk Group: Customers on month-to-month contracts show a significantly higher tendency to churn compared to those on one or two-year contracts.
-
-2. Demographic and Service Drivers
-Senior Citizens: You transformed the SeniorCitizen data into a readable format, highlighting that while they represent a smaller portion of the total base, their service usage patterns are distinct.
-
-Payment Methods: The count plots you created indicate that customers using Electronic Checks are the most likely to churn, suggesting potential friction in the payment experience or a correlation with contract types.
-
-Service Impact: Churn is notably higher among customers with Fiber Optic internet service and those with high Monthly Charges, indicating that price sensitivity and service reliability may be key factors.
-
-3. Data Processing & Methodology
-Data Integrity: You successfully addressed missing values by replacing blanks in TotalCharges with 0 and converting the column to a numeric type for calculation.
-
-No Duplicates: The dataset was verified to have zero duplicate customer IDs, ensuring the analysis is based on unique individual records.
-
-Tooling: The analysis was built using professional Python libraries including Pandas for data manipulation and Seaborn/Matplotlib for high-quality data visualization.
-
-Strategic Recommendations
-Incentivize Long-term Contracts: Focus on migrating month-to-month customers to annual plans through targeted discounts.
-
-Payment Experience: Investigate the high churn among electronic check users to determine if a more user-friendly automated billing system could improve retention.
-
-Value Proposition: Review the pricing and performance of the Fiber Optic tier to ensure customers feel they are receiving value for the higher monthly charges.
+📊 Project Overview
+This project analyzes a telecom dataset to uncover the drivers behind a 26.54% churn rate. Key focus areas include contract types, payment methods, and service tiers (Fiber Optic).
+🚀 Key Findings
+Contract Risk: Month-to-month contracts are the strongest predictor of churn.
+Payment Friction: Customers using Electronic Checks churn at the highest rates.
+Service Gaps: High-tier Fiber Optic users show significant price sensitivity/dissatisfaction.
+Demographics: Senior citizens exhibit unique usage patterns requiring tailored retention.
+🛠️ Tech Stack
+Language: Python
+Libraries:
+Pandas: Data cleaning and transformation
+Matplotlib & Seaborn: Statistical data visualization
+📁 Analysis Workflow
+Data Cleaning: Handled missing TotalCharges, formatted data types, and verified unique records.
+EDA: Visualized demographic impacts and service correlations using count plots and distributions.
